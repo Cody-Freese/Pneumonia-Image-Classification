@@ -5,7 +5,6 @@
 <br>- Pace: Self Paced </br>
 <br>- Instructor: Jeff Herman </br>
 <br>- Author: [Cody D. Freese](mailto:c_freese@ymail.com) </br>
-![Xray]https://4rai.com/images/easyblog_articles/155/chest-xray.jpg
 
 # Overview:
 Predict a whether or not a provided chest x-ray image is positive for Pneumonia based infection
