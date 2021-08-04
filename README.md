@@ -5,10 +5,12 @@
 <br>- Pace: Self Paced </br>
 <br>- Instructor: Jeff Herman </br>
 <br>- Author: [Cody D. Freese](mailto:c_freese@ymail.com) </br>
-<br>- Pneumonia
-![pneumonia image](https://user-images.githubusercontent.com/63601020/128221821-f2c65ec1-8c6a-4313-9ee0-cbd1125d2b0c.jpeg)
-<br>- Normal
+
+![pneumonia image](https://user-images.githubusercontent.com/63601020/128221821-f2c65ec1-8c6a-4313-9ee0-cbd1125d2b0c.jpeg) 
+Pneumonia
+
 ![normal image](https://user-images.githubusercontent.com/63601020/128221843-09ddf683-4c58-4eb3-b11a-191e5ee40a93.jpeg)
+Normal
 
 
 
@@ -20,7 +22,7 @@
 - The data was packaged into separate train, test, and validation sets. Each set was already prelabeled as either Normal or Pneumonia, the images themselves came in varying sizes, all were jpegs.
 
 # Data-Preparation:
-- Originally the data provided a validation set, however this only consisted of 2 classes each with 8 images each. Therefore we had to creat a larger validation set. I manually resorted them, putting all Pneumonia together and all Normal images together. Then train/test/validation splitting them. Training set of 70%, and the test and validation sets into 15% each. All images were rescaled from 0 to 1. Test data received light augmentation to extrapolate extra data that may be found from augmentation.
+- Originally the data provided a validation set, however this only consisted of 2 classes each with 8 images each. Therefore we had to create a larger validation set. I manually sorted them, putting all Pneumonia positive together and all Pneumonia Negative images together. Then train/test/validation splitting them. Training set of 70%, and the test and validation sets into 15% each. All images were rescaled from 0 to 1. Test data received light augmentation to extrapolate extra data that may be found from augmentation.
 
 # Modeling
 - I made several models to train, test and evaluate the data. 
