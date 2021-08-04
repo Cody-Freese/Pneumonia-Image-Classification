@@ -5,10 +5,10 @@
 <br>- Pace: Self Paced </br>
 <br>- Instructor: Jeff Herman </br>
 <br>- Author: [Cody D. Freese](mailto:c_freese@ymail.com) </br>
-<br>
-![person15_virus_46](https://user-images.githubusercontent.com/63601020/128217778-7b4b21c5-e2bf-4a11-8990-8a3dad790675.jpeg)
-<br>
-![NORMAL2-IM-1440-0001](https://user-images.githubusercontent.com/63601020/128217866-3e85a53e-0410-4fbc-9c8d-f2d9bf7a7220.jpeg)
+<br>- Pneumonia
+![pneumonia image](https://user-images.githubusercontent.com/63601020/128221821-f2c65ec1-8c6a-4313-9ee0-cbd1125d2b0c.jpeg)
+<br>- Normal
+![normal image](https://user-images.githubusercontent.com/63601020/128221843-09ddf683-4c58-4eb3-b11a-191e5ee40a93.jpeg)
 
 
 
