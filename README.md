@@ -27,13 +27,28 @@ Normal
 # Modeling
 - I made several models to train, test and evaluate the data. 
 
-- The first was a Multi-Layer Perceptron, a flattened layer with 5 Dense layers. 
+- The first was a Multi-Layer Perceptron, a flattened layer with 5 Dense layers.
+
 - A second model, a convoluted neural network with a max pooling layer, Flattened and run through the subsequent 5 layers.
+
 - Third model had a pretrained base off of DenseNet201, Flattened and run through 5 layers.
+
 - Each model was then Finetuned with a checkpoint and an early stopping protocol. This gave mildly different results but did not result in an overwhelming betterment of the original models.
 
 # Evaluation:
-- All models performed with 90% or greater accuracy, 85% precision, 85% recall on the worst models. The metric to be monitored was loss as I wanted to exhaust the capability of the program to learn instead of defining a classification metric. Let the program learn to the best of its ability and see what the results are.
 
+| Metrics           | Loss   | Accuracy | Precision | Recall |
+|-------------------|--------|----------|-----------|--------|
+| MLP Original      | 26.40% | 88.40%   | 87.30%    | 89.87% |
+| MLP Finetune      | 25.46% | 89.87%   | 89.87%    | 89.87  |
+| CNN Original      | 17.15% | 94.09%   | 93.36%    | 94.94% |
+| CNN Finetune      | 12.09% | 96.20%   | 96.60%    | 95.78% |
+| Pretrain Original | 18.42% | 92.83%   | 94.32%    | 91.14% |
+| Pretrain Finetune | 16.23% | 94.09%   | 99.06%    | 89.03% |
+
+- All models performed with 88% or greater accuracy, 87% precision, 89% recall on the worst models. The metric to be monitored was recall as the risk of a False Negative would be disastrous in a pragmatic scenario. We do not want to tell a sick person they are healthy as pneumonia can be a deadly disease.
+ 
+- For my final assessment I recommend deploying the CNN Finetune model in application for pneumonia detection.
+ 
 # Deployment:
 - These models can be used in an image detection program to be used by doctors to help them in a medical diagnosis. More data is needed to improve learning. 
