@@ -130,6 +130,8 @@ dmypy.json
 
 chest_xray
 
+chest_xray_original
+
 keras_metadata.pb
 
 saved_model.pb
